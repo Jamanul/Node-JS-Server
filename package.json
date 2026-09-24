@@ -1,0 +1,31 @@
+{
+  "name": "node-js-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./src/server.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamanul/Node-JS-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jamanul/Node-JS-Server/issues"
+  },
+  "homepage": "https://github.com/Jamanul/Node-JS-Server#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^26.6.2",
+    "dotenv": "^18.0.2"
+  }
+}
